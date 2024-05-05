@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+#header {
+  text-align: center;
+  margin: 3rem auto;
+  
+}
+#header h1 {
+  font-size: 1.5rem;
+}
+
+#header img {
+  width: 5rem;
+  height: 5rem;
+  background-color: transparent;
+  object-fit: contain;
+}
+
+#user-input {
+  /* width: 50%; */
+  /* margin: 15rem; */
+  text-align: center;
+}
+
+#user-input label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-family: 'Raboto Condensed', sans-serif;
+  font-size: 0.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+}
+
+#user-input label{
+  display: block;
+
+}
